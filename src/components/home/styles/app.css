@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 0 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}
