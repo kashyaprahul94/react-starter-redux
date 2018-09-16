@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 
 import registerServiceWorker from "./registerServiceWorker";
 
-import { RootView } from "./components/root";
-import { AppStore, History } from "./components/app/state";
+import { RootView, AppStore, AppHistory } from "./@modules/_root";
+
 
 ReactDOM.render(
-	<RootView store={ AppStore } history={ History } />,
-	document.getElementById("root")
+	<RootView store={ AppStore } history={ AppHistory } />,
+	document.getElementById( "root" )
 );
+
 registerServiceWorker();
